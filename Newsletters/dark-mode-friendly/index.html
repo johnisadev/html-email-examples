@@ -1,93 +1,355 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Responsive HTML Email Template</title>
-	<style type="text/css">
-		body {
-			Margin: 0;
-			padding: 0;
-			background-color: #f6f9fc;
-		}
-		table {
-			border-spacing: 0;
-		}
-		td {
-			padding: 0;
-		}
-		img {
-			border: 0;
-		}
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive HTML Email Template</title>
+    <style type="text/css">
+      /* RESET STYLES */
+      body {
+        /* Capital M for margin for outlook */
+        margin: 0;
+        padding: 0;
+        background-color: #f6f9fc;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
+      }
 
-		@media screen and (max-width: 600px) { 
-
-		}
-		@media screen and (max-width: 400px) {
-
-		}
-	</style>
-</head>
-<body>
-
-
-
-</body>
-</html>
-
-
-
-
-<!-- Begin Social Share **you can remove this to center the template :) -->
-<style>
-	.btn:hover {
-		color: white;
-		opacity: .8;
-		transform: scale(1.02);
-	}
-</style>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-sm btn-danger" style="position: absolute; right: 7px; bottom: 7px;transition: transform .3s ease;" data-toggle="modal" data-target="#socialModal">
-  Subscribe!
-</button>
-<!-- Modal -->
-<div class="modal fade" id="socialModal" style="font-family: 'Poppins', sans-serif;">
-  <div class="modal-dialog modal-md" role="document">
-    <div class="modal-content" style="background-color: rgba(255, 255, 255, .9)!important;border: 0;">
-      <div class="modal-header" style="display: none;">
-        <button type="button" class="close" data-dismiss="modal">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      /* CUSTOM STYLES */
+      .wrapper {
+        width: 100%;
+        background-color: #f6f9fc;
+        table-layout: fixed;
+        padding-bottom: 40px;
+      }
+      .outer {
+        max-width: 600px;
+        background-color: #fff;
+      }
+      .main {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color: #4a4a4a;
+      }
+      .social {
+        padding-right: 5px;
+      }
+      .three-columns {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        font-size: 0;
+      }
+      .three-columns .column {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .padding {
+        padding: 15px;
+      }
+      .content {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .btn {
+        padding: 10px 20px;
+        background-color: #378bda;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      /* MEDIA QUERIES */
+      @media screen and (max-width: 600px) {
+        img.third-img-last {
+          width: 200px !important;
+          max-width: 200px !important;
+        }
+        .padding {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          padding-top: 50px !important;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        img.third-img {
+          width: 200px !important;
+          max-width: 200px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper">
+      <div class="outer">
+        <table class="main" align="center">
+          <!-- SOCIAL MEDIA ICONS -->
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td
+                    style="
+                      background-color: #378bda;
+                      padding: 10px;
+                      text-align: center;
+                    "
+                  >
+                    <a href="facebook.com" class="social"
+                      ><img
+                        src="https://i.ibb.co/Ln7vLWz/white-facebook.png"
+                        alt="Facebook"
+                        title="Facebook"
+                        width="30"
+                    /></a>
+                    <a href="twitter.com" class="social"
+                      ><img
+                        src="https://i.ibb.co/vsdmQcx/white-twitter.png"
+                        alt="Twitter"
+                        title="Twitter"
+                        width="30"
+                    /></a>
+                    <a href="Youtube.com" class="social"
+                      ><img
+                        src="https://i.ibb.co/fM7F601/white-youtube.png"
+                        alt="Youtube"
+                        title="Youtube"
+                        width="30"
+                    /></a>
+                    <a href="linkedin.com" class="social"
+                      ><img
+                        src="https://i.ibb.co/J7dqGDL/white-linkedin.png"
+                        alt="LinkedIn"
+                        title="LinkedIn"
+                        width="30"
+                    /></a>
+                    <a href="instagram.com" class="social"
+                      ><img
+                        src="https://i.ibb.co/Msqjv6S/white-instagram.png"
+                        alt="Instagram"
+                        title="Instagram"
+                        width="30"
+                    /></a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- COMPANY LOGO -->
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td style="padding: 10px; text-align: center">
+                    <a href="#"
+                      ><img
+                        src="https://i.ibb.co/jvQnNR1/w3newbie.png"
+                        alt="W3 Newbie logo"
+                        title="W3 Newbie logo"
+                        width="180"
+                    /></a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- BANNER -->
+          <tr>
+            <td>
+              <a href="#"
+                ><img
+                  src="https://i.ibb.co/Yhc2gRg/1200x700.png"
+                  alt="keyboard background image"
+                  title="keyboard background image"
+                  width="600"
+                  style="max-width: 100%"
+              /></a>
+            </td>
+          </tr>
+          <!-- THREE COLUMN BLOCK -->
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td class="three-columns">
+                    <!-- column one -->
+                    <table class="column">
+                      <tr>
+                        <td class="padding">
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <a href="#"
+                                  ><img
+                                    src="https://i.ibb.co/XWhTjwH/380x280.jpg"
+                                    alt="space grey apple watch"
+                                    title="space grey apple watch"
+                                    width="150"
+                                    style="max-width: 150px"
+                                    class="third-img"
+                                /></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding: 10px">
+                                <p style="font-weight: bold; font-size: 17px">
+                                  APPLE WATCH
+                                </p>
+                                <p style="margin-bottom: 25px">
+                                  Responsive HTML Email Templates that you can
+                                  build around to master email development
+                                </p>
+                                <a class="btn" href="#">Learn more..</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- column two -->
+                    <table class="column">
+                      <tr>
+                        <td class="padding">
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <a href="#"
+                                  ><img
+                                    src="https://i.ibb.co/rdWZYKX/380x280-3.jpg"
+                                    alt="apple watch bands"
+                                    title="apple watch bands"
+                                    width="150"
+                                    style="max-width: 150px"
+                                    class="third-img"
+                                /></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding: 10px">
+                                <p style="font-weight: bold; font-size: 17px">
+                                  WATCH BANDS
+                                </p>
+                                <p style="margin-bottom: 25px">
+                                  Responsive HTML Email Templates that you can
+                                  build around to master email development
+                                </p>
+                                <a class="btn" href="#">Learn more..</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- column three -->
+                    <table class="column">
+                      <tr>
+                        <td class="padding">
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <a href="#"
+                                  ><img
+                                    src="https://i.ibb.co/cDQhCSH/380x280-2.jpg"
+                                    alt="apple air pods"
+                                    title="apple air pods"
+                                    width="150"
+                                    style="max-width: 150px"
+                                    class="third-img"
+                                /></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding: 10px">
+                                <p style="font-weight: bold; font-size: 17px">
+                                  AIR PODS
+                                </p>
+                                <p style="margin-bottom: 25px">
+                                  Responsive HTML Email Templates that you can
+                                  build around to master email development
+                                </p>
+                                <a class="btn" href="#">Learn more..</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- FOOTER -->
+          <tr>
+            <td style="background-color: #378bda" height="10"></td>
+          </tr>
+          <tr>
+            <td style="background-color: #efefef">
+              <table width="100%">
+                <tr>
+                  <td
+                    style="
+                      padding: 20px;
+                      text-align: center;
+                      padding-bottom: 10px;
+                    "
+                  >
+                    <a href="#"
+                      ><img
+                        src="https://i.ibb.co/jvQnNR1/w3newbie.png"
+                        alt="W3 Newbie logo"
+                        title="W3 Newbie logo"
+                        width="160"
+                    /></a>
+                    <p style="font-size: 16px; margin: 18px 0 10px 0">
+                      w3newbie HTML Email
+                    </p>
+                    <p style="font-size: 16px; margin: 18px 0 10px 0">
+                      123 Street Road, City, State 55555
+                    </p>
+                    <p>
+                      <a
+                        style="text-decoration: none"
+                        href="mailto:example@email.com"
+                        >example@email.com</a
+                      >
+                    </p>
+                    <p>
+                      <a style="text-decoration: none" href="tell:18008888888"
+                        >1-800-888-8888</a
+                      >
+                    </p>
+                    <p style="font-size: 10px; margin: 38px 0 10px 0">
+                      <a style="text-decoration: none" href="#">UNSUBSCRIBE</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style="
+                      background-color: #378bda;
+                      border-radius: 0 0 15px 15px;
+                    "
+                    height="20"
+                  ></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
       </div>
-			<div class="modal-body">
-				<div class="container-fluid text-center">
-					<div class="row justify-content-center px-0">
-						<div class="col-12">
-							<h2 class="pt-2 pb-4">Subscribe & turn on notifications! <i class="fas fa-bell"></i></h2>
-						</div>
-						<div class="col-lg-5 my-2">
-							<!-- YOUTUBE CHANNEL -->
-							<a class="btn btn-lg" href="https://www.youtube.com/channel/UCZWoe3ezD_dZTZgQnDyBgFQ/?sub_confirmation=1" target="_blank" style="background-color: red;color: white;transition: transform .3s ease;"><i class="fab fa-youtube"></i> Subscribe
-							</a>
-						</div>
-						<div class="col-12">
-							<h6 class="pt-4 pb-0"><a href="https://responsivehtmlemail.com/html-email-course/" target="_blank">www.responsivehtmlemail.com</a></h6>
-						</div>
-					</div>
-				</div>
-			</div>
-    </div>
-  </div>
-</div>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
-	$(this).delay(2000).queue(function() { /*-- CHANGE DELAY TIME --*/
-		$("#socialModal").modal('show');
-	});
-</script>
+    </center>
+  </body>
+</html>
