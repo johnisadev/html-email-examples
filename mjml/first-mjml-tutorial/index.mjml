@@ -1,0 +1,133 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Quantico" href="https://fonts.googleapis.com/css2?family=Quantico" />
+    <mj-attributes>
+      <mj-text font-family="Quantico, sans-serif" align="center" font-size="20px" line-height="26px" color="#ffffff" padding="0px" />
+      <mj-image padding="0px" />
+      <mj-button background-color="#D1AA5A" font-size="14px" color="#000000" font-family="Quantico,
+            sans-serif" text-transform="uppercase" border-radius="0px" height="45px" width="200px" />
+      <mj-section padding="0px" background-color="#000000" />
+      <mj-class name="head-text" font-size="48px" line-height="69px" text-transform="uppercase" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#F1F1F1">
+    <!-- LOGO SECTION -->
+    <mj-section>
+      <mj-column>
+        <mj-image width="128px" padding="20px" src="https://i.ibb.co/hdZSPGt/logo.png" alt="logo" title="logo" />
+      </mj-column>
+    </mj-section>
+    <!-- WELCOME SECTION -->
+    <mj-section>
+      <mj-column>
+        <mj-image href="#" src="https://i.ibb.co/jf4qFK5/hero-image.png" alt="Welcome to the team" title="Welcome to the team" />
+      </mj-column>
+    </mj-section>
+    <!-- DISCOUNT SECTION -->
+    <mj-section padding-top="80px">
+      <mj-column>
+        <mj-image width="500px" padding="0 50px" src="https://i.ibb.co/6gQvDHx/discount-image.png" alt="Thanks for signing up!" title="Thanks for signing up!" />
+        <mj-button padding="20px" href="#">
+          Get 10% off now!
+        </mj-button>
+        <mj-text font-size="12px">
+          Or Use Code: 123XYZ456 At Checkout
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- WHY SECTION -->
+    <mj-section padding="80px 20px 0px 20px">
+      <mj-column width="400px" padding-bottom="15px">
+        <mj-text mj-class="head-text">
+          Why Warstick?
+        </mj-text>
+      </mj-column>
+      <mj-column width="420px">
+        <mj-text>
+          We design uniquely original sporting goods for people looking for more substance and style from their stick, without sacrificing performance.
+        </mj-text>
+        <mj-image href="#" src="https://i.ibb.co/rp6wpFv/why-image.png" alt="Learn more" title="Learn more" />
+      </mj-column>
+    </mj-section>
+    <!-- VIDEO SECTION -->
+    <mj-section padding-top="80px">
+      <mj-column width="400px" padding-bottom="15px">
+        <mj-text mj-class="head-text" padding="0px 20px">
+          be the storm
+        </mj-text>
+        <mj-text>
+          Check out our latest video.
+        </mj-text>
+        <mj-image href="#" src="https://i.ibb.co/YPS57Xk/video-image.jpg" alt="Latest video" title="Latest video" padding-top="20px">
+    </mj-section>
+    <!-- SERVICES SECTION -->
+    <mj-section padding-top="80px">
+      <mj-column>
+        <mj-text font-size="30px" padding="0px 20px" text-transform="uppercase">
+          Outstanding service
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- GAURANTEES SECTION -->
+    <mj-section padding="30px 50px 0px 50px">
+      <mj-column width="200px" padding="20px">
+        <mj-image width="40px" src="https://i.ibb.co/9Gbyxpj/truck.png" alt="Express delivery" title="Express Delivery." />
+        <mj-text font-size="12px" line-height="21px" padding-top="15px">
+          Express Delivery
+        </mj-text>
+      </mj-column>
+      <mj-column width="200px" padding="20px">
+        <mj-image width="40px" src="https://i.ibb.co/9Gbyxpj/truck.png" alt="Express delivery" title="Express Delivery." />
+        <mj-text font-size="12px" line-height="21px" padding-top="15px">
+          Express Delivery
+        </mj-text>
+      </mj-column>
+      <mj-column width="200px" padding="20px">
+        <mj-image width="40px" src="https://i.ibb.co/9Gbyxpj/truck.png" alt="Express delivery" title="Express Delivery." />
+        <mj-text font-size="12px" line-height="21px" padding-top="15px">
+          Express Delivery
+        </mj-text>
+      </mj-column>
+      <mj-column width="200px" padding="20px">
+        <mj-image width="40px" src="https://i.ibb.co/9Gbyxpj/truck.png" alt="Express delivery" title="Express Delivery." />
+        <mj-text font-size="12px" line-height="21px" padding-top="15px">
+          Express Delivery
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- PAYMENTS SECTION -->
+    <mj-section padding="10px 80px 80px 80px">
+      <mj-column>
+        <mj-text>
+          <img src="https://i.ibb.co/6DwX53v/pay1.png" width="35px" style="padding:5px;" alt="Apple pay" title="Apple pay" />
+          <img src="https://i.ibb.co/4fH2GCG/pay2.png" width="35px" style="padding:5px;" alt="Venmo" title="Venmo" />
+          <img src="https://i.ibb.co/nf3GSDp/pay3.png" width="35px" style="padding:5px;" alt="Discover" title="Discover" />
+          <img src="https://i.ibb.co/bBB6tp0/pay4.png" width="35px" style="padding:5px;" alt="Mastercard" title="Mastercard" />
+          <img src="https://i.ibb.co/3N6mg8r/pay5.png" width="35px" style="padding:5px;" alt="Visa" title="Visa" />
+          <img src="https://i.ibb.co/XXFqqqg/pay6.png" width="35px" style="padding:5px;" alt="Paypal" title="Paypal" />
+          <img src="https://i.ibb.co/2Fc1t3f/pay7.png" width="35px" style="padding:5px;" alt="American Express" title="American Express" />
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- FOOTER SECTION -->
+    <mj-section background-color="#F6F6EF" padding-bottom="30px">
+      <mj-column width="300px" padding-top="30px">
+        <mj-social icon-size="25px" mode="horizontal">
+          <mj-social-element src="https://i.ibb.co/d6KXcxG/facebook.png" href="facebook.com" alt="Facebook"></mj-social-element>
+          <mj-social-element src="https://i.ibb.co/X2t4hyK/instagram.png" href="instagram.com" alt="Instagram"></mj-social-element>
+          <mj-social-element src="https://i.ibb.co/XtLHqr7/twitter.png" href="twitter.com" alt="Twitter"></mj-social-element>
+          <mj-social-element src="https://i.ibb.co/bK5gPFq/youtube.png" href="youtube.com" alt="Youtube"></mj-social-element>
+        </mj-social>
+        <mj-text color="#303030" font-family="Helvetica" font-size="12px" line-height="14px" padding="15px 20px 0px 20px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh sit amet libero finibus pharetra sit amet ac sapien.
+          <br /> <br />
+          Phasellus magna ligula, molestie et nisi et, tempus tincidunt purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </mj-text>
+        <mj-button href="google.com" color="#303030" font-family="Helvetica" background-color="#F6F6EF" font-size="12px" line-height="14px" padding="15px 50px 0px 50px">
+          Unsubscribe
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
